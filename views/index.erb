@@ -4,8 +4,36 @@
         <title>The Local Bowling Alley</title>
     </head>
     <body>
+<<<<<<< HEAD
         <h1>Buster's Best Bowling Alley</h1>
         <h2>Bet You Can't Bowl A Strike Every Time</h2>
         <p>97 Bowling Alley Lane, Boulder CO </p>
+=======
+        <h1>The Local Bowling Alley</h1>
+        <h2>Bowl till you drop!</h2>
+        <p>We are located at 3145 Peterson Street, Gotham City, GM, USA</p>
+>>>>>>> 719c20ba84bfd999c8879f88cb343e433dc46fb0
     </body>
 </html>
+<%= "I love " + "Ruby!!" %>
+
+<h1><%= "I love " + "Ruby!!" %></h1>
+<% if 1 == 2 %>
+  <p>1 equals 2.</p>
+<% else %>
+  <p>1 does not equal 2.</p>
+<% end %>
+
+<ul>
+  <% squares = [1, 4, 9, 16] %>
+  <% squares.each do |square| %>
+    <li><%= square %></li>
+  <% end %>
+</ul>
+
+<% wall_posts = ["First post!", "Second post!", "Hello, it's your mother. Why don't you ever call me?"] %>
+<ul>
+  <% wall_posts.each do |post| %>
+    <li><%= post %></li>
+  <% end %>
+</ul>
